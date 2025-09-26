@@ -7,12 +7,14 @@ function Todo(props) {
 
   return (
     <div className="todo-items">
+    <ul>
       {todoItems.map((item, index) => (
         <div key={index} className="todo">
           <li className="todo-list">{item}</li>
           <button onClick={() => deleteTodo(index)} className="delete-button">Delete</button>
         </div>
       ))}
+        </ul>
     </div>
   );
 }
