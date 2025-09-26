@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./../styles.css";
 function Todo(props) {
   const todoItems = props.todoItems;
   const deleteTodo = props.deleteTodo;
